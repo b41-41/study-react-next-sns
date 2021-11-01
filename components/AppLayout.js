@@ -7,18 +7,17 @@ const AppLayout = ({ children }) => {
     return (
         <div>
                 <Menu mode="horizontal">
-                <Menu.Item>
-                    <Link href="/"><a>INDEX</a></Link>
-                </Menu.Item>
-                <Menu.Item>
-                    <Link href="/profile"><a>프로필</a></Link>
-                </Menu.Item>
-                <Menu.Item>
-                    <Link href="/signup"><a>회원가입</a></Link>
-                </Menu.Item>
-                <div>공통 메뉴</div>
+                    <Menu.Item>
+                        <Link href="/"><a>INDEX</a></Link>
+                    </Menu.Item>
+                    <Menu.Item>
+                        <Link href="/profile"><a>프로필</a></Link>
+                    </Menu.Item>
+                    <Menu.Item>
+                        <Link href="/signup"><a>회원가입</a></Link>
+                    </Menu.Item>
+                </Menu>
                 { children }
-            </Menu>
         </div>
     )
 };
