@@ -17,6 +17,7 @@ const Profile = () => {
                 <NicknameEditForm />
                 <FollowList header="팔로잉 목록" data={followingList} />
                 <FollowList header="팔로워 목록" data={followerList} />
+
             </AppLayout>
         </>
         )
