@@ -6,8 +6,8 @@ import PropTypes from "prop-types";
 import useInput from "../hooks/useInput";
 
 const ButtonWrapper = styled.div`
-  margin-top: 10px;
-`;
+    margin-top: 10px;
+`
 
 const FormWrapper = styled(Form)`
   padding: 10px;
